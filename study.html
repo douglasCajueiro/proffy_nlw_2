@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt_br"> <!--lang is an attribute-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proffy | Sua plataforma de estudos online</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/partials/header.css">
+    <link rel="stylesheet" href="/styles/partials/forms.css">
+    <link rel="stylesheet" href="/styles/partials/page-study.css">
+    
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+
+</head>
+<body id="page-study">
+
+    <div id="container">
+        <header class="page-header">
+            <div class="top-bar-container">
+                <a href="/">
+                <img src="/images/icons/back.svg" alt="Voltar">
+                </a>
+                <img src="/images/logo.svg" alt="Proffy">
+            </div>
+
+            <div class="header-content">
+                <strong>Esses são os proffys disponíveis</strong>
+                <form id="search-teachers">
+                    <div class="select-block">
+                        <label for="subject">Matéria</label>
+                        <select name="subject" id="subject">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="1">Artes</option>
+                            <option value="2">Biologia</option>
+                            <option value="3">Ciências</option>
+                            <option value="4">Educação física</option>
+                            <option value="5">Física</option>
+                            <option value="6">Geografia</option>
+                            <option value="7">História</option>
+                            <option value="8">Matemática</option>
+                            <option value="9">Português</option>
+                            <option value="10">Química</option>
+                        </select>
+                    </div>
+                    <div class="select-block">
+                        <label for="weekday">Dia da semana</label>
+                        <select name="weekday" id="weekday">
+                            <option value="" disabled="" hidden="">Selecione uma opção</option>
+                            <option value="0">Domingo</option>
+                            <option value="1">Segunda-feira</option>
+                            <option value="2">Terça-feira</option>
+                            <option value="3">Quarta-feira</option>
+                            <option value="4">Quinta-feira</option>
+                            <option value="5">Sexta-feira</option>
+                            <option value="6">Sábado</option>
+                        </select>
+                    </div>
+                    <div class="input-block">
+                        <label for="time">Hora</label>
+                        <input name="time" id="time" type="time" >
+                    </div>
+                    <button type="submit">Filtrar</button>
+                </form>
+            </div>
+
+
+
+        </header>
+
+        <main>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://scontent-gig2-1.xx.fbcdn.net/v/t31.0-1/p720x720/14682199_1709425099376603_5365256782677005119_o.jpg?_nc_cat=104&_nc_sid=dbb9e7&_nc_ohc=nniyLQLpv5gAX-aBYkz&_nc_ht=scontent-gig2-1.xx&_nc_tp=6&oh=107b898614438d14ff9fae02590bd171&oe=5F5185C4" 
+                        alt="Douglas Cajueiro">
+                    <div>
+                        <strong>Douglas Cajueiro</strong>
+                        <span>Fotografia</span>
+                    </div>
+                </header>
+            
+                <p>O cara que tem "uma câmera boa".<br><br>Apaixonado por fotografia, independente do segmento. Fotografa de parto a show de Death Metal.</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 100,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+            <article class="teacher-item">
+                <header>
+                    <img 
+                        src="https://scontent-gig2-1.xx.fbcdn.net/v/t1.0-1/c0.22.160.160a/p160x160/394124_328085253870101_1320812351_n.jpg?_nc_cat=101&_nc_sid=dbb9e7&_nc_ohc=pK2eB_MCrjMAX9SPKOJ&_nc_ht=scontent-gig2-1.xx&oh=16a7b0765ac5d420f214ed2b468a5138&oe=5F525C62" 
+                        alt="Diego Fernandes">
+                    <div>
+                        <strong>Cajueiro, o Douglas</strong>
+                        <span>Circo</span>
+                    </div>
+                </header>
+            
+                <p>Metido a dragão, fica cospindo fogo por aí.<br><br>Se quiser jogar tudo pro alto e não se machucar, brincar com fogo e não se queimar, ele é o professor certo!</p>
+            
+                <footer>
+                    <p>Preço/hora<strong>R$ 80,00</strong>
+                    </p>
+                    <button type="button">
+                        <img src="/images/icons/whatsapp.svg" alt="Whatsapp">Entrar em contato
+                    </button>
+                </footer>
+            </article>
+
+        </main>
+
+    </div>
+
+    
+
+</body>
+</html>
